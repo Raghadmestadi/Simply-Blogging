@@ -53,7 +53,6 @@
 
 }
 
-
 span {
     color: #3f3f3f;
 }
@@ -139,4 +138,34 @@ footer {
 .icon img {
     padding-left: 5px;
 
+}
+
+@media(max-width:700px){
+    .hero-bg-text h2 {
+        font-size: 20px;
+        
+    }
+    .hero-bg-text p {
+        font-size: 13px;
+        
+    }
+    .button {
+      
+        padding: 5px;
+    }
+    .intro {
+       font-size: 20px;
+    }
+    .About-Us {
+       font-size: 15px;
+        display: block;
+        margin: 3px;
+    }
+    .About-Us img{
+        width: 430px;
+        height: 330px;
+     }
+     .About-Us p{
+       padding-bottom: 10px;
+     }
 }
